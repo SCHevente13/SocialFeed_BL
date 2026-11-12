@@ -26,5 +26,9 @@ namespace SocialFeed
         {
             return $"{Author}, {Likes} likes";
         }
+        public virtual int Score()
+        {
+            return _likes;
+        }
     }
 }
