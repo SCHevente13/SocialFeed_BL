@@ -24,7 +24,7 @@ namespace SocialFeed
         }
         public virtual string GetDescription()
         {
-            return "Yuh";
+            return $"{Author}, {Likes} likes";
         }
     }
 }
